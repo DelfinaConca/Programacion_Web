@@ -7,29 +7,61 @@
 </head>
 
 <header>
-    <h1>Flash Coffee</h1>
+    <h1 style="text-align: center; margin-bottom: 50px; margin-top: 50px;  ">Flash Coffee</h1>
+    <img style="width:150px; height: 150px; float: right; margin-top: -130px;" src="https://marketplace.canva.com/EAFTviDnQRM/1/0/1600w/canva-retro-and-vintage-coffee-shop-badge-logo-AkT-50lhy8M.jpg" alt="logo">
+    <br>
+    <hr>
 
 
-<body>
-    <h2 style="text-align: center;">Datos de Contacto</h2>
+<body  style="background-color: #e6c796;">
+    <br>
+    <form action="form_agrupado.html" method="post">
+        <fieldset style="text-align: center;">
+            <legend style="font-size: 43px; text-align: left;">TU PEDIDO</legend>
+            
+            <label for="Nombre">NOMBRE COMPLETO: </label><input type="text" name="nombre" tabindex="1">
+            <br> <br>
+            <label for="Empresa">EMPRESA: </label><input type="text" name="nombre" tabindex="1">
+            <br> <br>
+            <label for="Direccion">DIRECCION: </label><input type="text" name="Direccion" tabindex="1">
+            <br> <br>
+            <label for="Cafe">VARIEDAD DE CAFE: </label><select id="Cafe" name="Cafe">
+                <option value="Opcion0"></option>
+                <option value="Opcion1">Café expreso</option>
+                <option value="Opcion2">Café doble</option>
+                <option value="Opcion3">Café flash</option>
+                <option value="Opcion4">Café mocha</option>
+                <option value="Opcion5">Cappuccino</option>
+            </select>
+            <br> <br>
+            <label for="Cantidad">CANTIDAD: </label><input type="number" name="Cantidad" tabindex="1" min="1">
+            <br> <br>
+            <p>DESEA AGREGAR ALGUN SNACK?</p>
+            <label for="Snack">Si</label><input type="radio" name="Snack" value="Si">
+            <label for="Snack">No</label><input type="radio" name="Snack" id="no">
+            <select id="Snack" name="Snack">
+                <option value="Opcion0"></option>
+                <option value="Opcion1"> Brownie de chocolate</option>
+                <option value="Opcion2">Alfajor de dulce de leche</option>
+                <option value="Opcion3">Scones de queso</option>
+                <option value="Opcion4">Coquitos</option>
+            </select>
+            <br> <br>                
+            <label for="checkbox">TENGO CUPON DE BENEFICIO </label><input type="checkbox" name="Checkbox" tabindex="1">
+
+        </fieldset>
+        <br><br><br>
+        <div style="text-align: center;"> 
+            <button style="background-color:#c5913d; border-color: #c5913d;border-radius: 5px; width: 100px; height: 40px;" class="mi-boton">¡PEDIR!</button>
+        </div>
+    </form>
+<br><br><br><br><br><br>
+
+<hr>
+<h2 style="text-align: center;">Datos de Contacto</h2>
 <p style="text-align: center;">WHHATSAPP: +54 911 31232055</p>
 <p style="text-align: center;">DIRECCION: Av. Libertador 1344</p>
 <p style="text-align: center;">INSTAGRAM: flash_coffee</p>
-<br>
 
-
-    <form action="form_agrupado.html" method="post">
-        <fieldset>
-            <legend>TU PEDIDO</legend>
-            <label for="Cafe">CAFE </label><input type="text" name="dni" tabindex="1">
-            <br>
-            <br>
-            <label for="Cantidad">CANTIDAD </label><input type="text" name="nombre" tabindex="1">
-            <br>
-            <br>
-            <label for="Nombre">NOMBRE </label><input type="text" name="apellido" tabindex="1">
-
-        </fieldset>
-    </form>
 </body>
 </html>
