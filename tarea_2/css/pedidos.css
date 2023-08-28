@@ -1,0 +1,37 @@
+h1{
+    text-align: center; 
+    margin-bottom: 50px; 
+    margin-top: 50px;
+}
+
+img{
+    width:150px; height: 150px; float: right; margin-top: -130px;
+}
+footer{
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+}
+body{
+    background-color: #e6c796;
+}
+
+legend{
+    font-size: 43px; text-align: left;
+}
+.mi_boton{
+    background-color:#c5913d; 
+    border-color: #c5913d;
+    border-radius: 5px; 
+    width: 100px; 
+    height: 40px
+}
+.pedir{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
